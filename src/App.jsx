@@ -24,15 +24,15 @@ function App() {
 
   const playSound = (key) => {
     const audioFiles = {
-      Q: 'src/assets/sounds/sound2.wav',
-      W: 'src/assets/sounds/public_sounds_hihat.wav',
-      E: 'src/assets/sounds/public_sounds_clap.wav',
-      A: 'src/assets/sounds/tom.wav',
-      S: 'src/assets/sounds/public_sounds_kick.wav',
-      D: 'src/assets/sounds/tom1d.wav',
-      Z: 'src/assets/sounds/public_sounds_snare.wav',
-      X: 'src/assets/sounds/sound1.wav',
-      C: 'src/assets/sounds/public_sounds_sub.wav',
+      Q: './src/assets/sounds/sound2.wav',
+      W: './src/assets/sounds/public_sounds_hihat.wav',
+      E: './src/assets/sounds/public_sounds_clap.wav',
+      A: './src/assets/sounds/tom.wav',
+      S: './src/assets/sounds/public_sounds_kick.wav',
+      D: './src/assets/sounds/tom1d.wav',
+      Z: './src/assets/sounds/public_sounds_snare.wav',
+      X: './src/assets/sounds/sound1.wav',
+      C: './src/assets/sounds/public_sounds_sub.wav',
     };
 
     const audio = new Audio(audioFiles[key]);
